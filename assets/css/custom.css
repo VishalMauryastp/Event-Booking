@@ -1,0 +1,11 @@
+#myVideo{
+  min-width: 100%; 
+    min-height: 300px;
+    max-height:40%;
+    width: auto; 
+    height: auto; 
+}
+
+.album-filter-button.album-filter-button-two{
+  max-width:none !important;
+}
