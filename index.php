@@ -96,10 +96,14 @@
 		<!-- /#about -->
 
 
+		<?php include 'components/aboutsection.php'; ?>
+		<?php include 'components/artist.php'; ?>
+
 		<!--==============================-->
 		<!--=        	Latest release         =-->
 		<!--==============================-->
-		<section class="section-padding latest-relese">
+		<section class="section-padding  artistondemand ">
+		<!-- latest-relese -->
 			<div class="container">
 				<div class="row">
 					<div class="section-title style-four ">
@@ -113,7 +117,7 @@
 										<div class="cover-img bg-black/30  backdrop-blur-[2px] !bg-black/50">
 											<img src="assets/img/cover.jpg" alt="">
 										</div>
-										<div class="albun-details b ">
+										<div class="albun-details ">
 
 
 
@@ -122,19 +126,19 @@
 											<p class="text-white">Such platforms can be beneficial for both clients and artists. Clients gain access to a diverse pool of talent and can find artists who can bring their visions to life, while artists have opportunities to showcase their skills and earn income through commissioned work.</p>
 											<p class="text-white">Some platforms may also offer additional features such as portfolio hosting, project management tools, and payment processing to facilitate smooth interactions between clients and artists. Overall, artist on demand services contribute to the accessibility of custom artwork and creative services for a wide range of needs and budgets.</p> -->
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Welcome to the world of creativity unleashed - welcome to [Your Company Name]. We're here to transform your events into unforgettable experiences with our innovative Artist on Demand services.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Welcome to the world of creativity unleashed - welcome to [Your Company Name]. We're here to transform your events into unforgettable experiences with our innovative Artist on Demand services.</p>
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Unleash Creativity: With Artist on Demand, we bring a touch of magic to your events by offering a diverse range of talented artists at your fingertips. Whether you're looking for live painters, musicians, dancers, or any other form of artistic expression, we've got you covered.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Unleash Creativity: With Artist on Demand, we bring a touch of magic to your events by offering a diverse range of talented artists at your fingertips. Whether you're looking for live painters, musicians, dancers, or any other form of artistic expression, we've got you covered.</p>
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Customized Experiences: No two events are the same, and neither should be the artistic expressions within them. Our Artist on Demand services are fully customizable to suit your event theme, mood, and audience preferences. From classical elegance to cutting-edge contemporary, we curate the perfect artistic experience tailored just for you.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Customized Experiences: No two events are the same, and neither should be the artistic expressions within them. Our Artist on Demand services are fully customizable to suit your event theme, mood, and audience preferences. From classical elegance to cutting-edge contemporary, we curate the perfect artistic experience tailored just for you.</p>
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Seamless Integration: Integrating artistic performances seamlessly into your event has never been easier. Our dedicated team works closely with you to understand your vision and coordinates with our roster of talented artists to ensure flawless execution on the day of your event.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Seamless Integration: Integrating artistic performances seamlessly into your event has never been easier. Our dedicated team works closely with you to understand your vision and coordinates with our roster of talented artists to ensure flawless execution on the day of your event.</p>
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Elevate Your Event: Elevate your event from ordinary to extraordinary with our Artist on Demand services. Create immersive environments, captivate your audience, and leave a lasting impression that will have everyone talking long after the event is over.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Elevate Your Event: Elevate your event from ordinary to extraordinary with our Artist on Demand services. Create immersive environments, captivate your audience, and leave a lasting impression that will have everyone talking long after the event is over.</p>
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Experience the Difference: Experience the difference that art can make at your next event with [Your Company Name]. Let us bring your vision to life and turn your event into a masterpiece with our Artist on Demand services.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Experience the Difference: Experience the difference that art can make at your next event with [Your Company Name]. Let us bring your vision to life and turn your event into a masterpiece with our Artist on Demand services.</p>
 
-											<p class="!text-[#ffc107] !text-lg font-bold mt-4">Get in Touch: Ready to elevate your event with the magic of art? Contact us today to learn more about our Artist on Demand services and how we can help you create a truly unforgettable experience for your guests.</p>
+											<p class="!text-[#444] !text-lg  mt-4">Get in Touch: Ready to elevate your event with the magic of art? Contact us today to learn more about our Artist on Demand services and how we can help you create a truly unforgettable experience for your guests.</p>
 
 										</div>
 									</div>
@@ -554,6 +558,7 @@
 
 		<?php include 'components/testimonial.php'; ?>
 		<?php include 'components/contact.php'; ?>
+		<?php include 'components/footer2.php'; ?>
 		<?php include 'components/footer.php'; ?>
 	</div>
 	</div>
