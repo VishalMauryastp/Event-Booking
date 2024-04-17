@@ -1,4 +1,4 @@
-<footer class="bg-black py-8 px-10 font-[sans-serif]">
+<footer class="bg-[#5a1537] py-8 px-10 font-[sans-serif]">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 !h-auto">
         <div class="lg:flex lg:items-center">
             <a href="javascript:void(0)">
@@ -63,3 +63,22 @@
     <p class='text-gray-300 text-sm mt-8'>© 2023<a href='https://readymadeui.com/' target='_blank' class="hover:underline mx-1">ReadymadeUI</a>All Rights Reserved.
     </p>
 </footer>
+<div class="copyright-text" style="background-color:#a72a6a !important">
+    <div class="tim-container">
+        <div class="row">
+            <div class="col-sm-7 col-md-6">
+                <p>Copyright © 2018, <a href="http://www.themeim.com" class="text-dark">Gronity</a>. All Right Reserved</p>
+            </div>
+            <!-- /.col-md-6 -->
+            <div class="col-sm-5 col-md-6">
+                <div class="design-author text-right">
+                    <p>Designed by <a href="http://www.themeim.com" class="text-dark">Gronity</a></p>
+                </div>
+                <!-- /.design-author -->
+            </div>
+            <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.tim-container -->
+</div>

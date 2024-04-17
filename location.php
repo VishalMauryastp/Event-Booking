@@ -2,6 +2,7 @@
 
 <head>
 	<?php include 'components/links.php'; ?>
+	<script defer src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body id="home-version-1" class="home-version-1" data-style="default">
@@ -60,7 +61,7 @@
 		</section>
 		<!-- Contact bottom area end -->
 
-		<?php include 'components/footer.php'; ?>
+		<?php include 'components/footer3.php'; ?>
 	</div>
 	</div>
 

@@ -96,6 +96,7 @@
 		<!-- /#about -->
 
 
+
 		<?php include 'components/aboutsection.php'; ?>
 		<?php include 'components/artist.php'; ?>
 
@@ -103,7 +104,7 @@
 		<!--=        	Latest release         =-->
 		<!--==============================-->
 		<section class="section-padding  artistondemand ">
-		<!-- latest-relese -->
+			<!-- latest-relese -->
 			<div class="container">
 				<div class="row">
 					<div class="section-title style-four ">
@@ -327,92 +328,92 @@
 							<a href="" data-filter="*">All</a>
 						</li>
 						<li>
-							<a href="" data-filter=".international">International Artist</a>
+							<a href="" data-filter=".Anchors">Anchors</a>
 						</li>
 						<li>
-							<a href="" data-filter=".dance">Dance</a>
+							<a href="" data-filter=".Singers">Singers</a>
 						</li>
 						<li>
-							<a href="" data-filter=".band">Band</a>
+							<a href="" data-filter=".SpecialActs">Special Acts</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="" data-filter=".soundanddj">Sound and DJ</a>
-						</li>
+						</li> -->
 					</ul>
 
 					<div class="tim-isotope tim-isotope-2 wow fadeInUp" data-wow-delay="0.8s">
 						<ul class="tim-filter-items tim-album-items grid">
 							<li class="grid-sizer"></li>
-							<li class="tim-album-item grid-item band  ">
+							<li class="tim-album-item grid-item Anchors  ">
 								<div class="tim-isotope-grid__img effect-active">
-									<img src="img/1.jpg" alt="album thumb" />
+									<img src="img/vipul.jpeg" alt="album thumb" />
 								</div>
 
 								<div class="gallery_details_wrap">
 									<div class="gallery-info">
 
-										<h4 class="album-title" onclick="window.location.href='intro1.php'">Silver Strings Band</h4>
+										<h4 class="album-title" onclick="window.location.href='intro1.php'">Vipul Roy</h4>
 
 									</div>
 								</div>
 							</li>
-							<li class="tim-album-item grid-item band international">
+							<li class="tim-album-item grid-item Singers international">
 								<div class="tim-isotope-grid__img">
-									<img src="img/2.jpg" alt="album thumb" />
+									<img src="img/singers/singers (3).jpg" alt="album thumb" />
 								</div>
 
 
 
 								<div class="gallery_details_wrap">
 									<div class="gallery-info">
-										<h4 class="album-title" onclick="window.location.href='intro2.php'">Simphony Band</h4>
+										<h4 class="album-title" onclick="window.location.href='abhiruchi.php'">Abhiruchi Singh</h4>
 
 									</div>
 								</div>
 							</li>
-							<li class="tim-album-item grid-item band">
+							<li class="tim-album-item grid-item Singers">
 								<div class="tim-isotope-grid__img">
-									<img src="assets/img/3.jpg" alt="album thumb" />
+									<img src="img/singers/singers (2).jpg" alt="album thumb" />
 								</div>
 
 
 
 								<div class="gallery_details_wrap">
 									<div class="gallery-info">
-										<h4 class="album-title" onclick="window.location.href='intro3.php'">Trio Violin Band</h4>
+										<h4 class="album-title" onclick="window.location.href='AdilHussaini.php'">Adil Hussaini</h4>
 
 									</div>
 								</div>
 							</li>
-							<li class="tim-album-item grid-item international band">
+							<li class="tim-album-item grid-item international SpecialActs">
 								<div class="tim-isotope-grid__img">
-									<img src="assets/img/4.jpg" alt="album thumb" />
+									<img src="img/special_act/special_act (1).jpg" alt="album thumb" />
 								</div>
 
 
 								<div class="gallery_details_wrap">
 									<div class="gallery-info">
-										<h4 class="album-title" onclick="window.location.href='intro4.php'">Loud Street Band</h4>
+										<h4 class="album-title" onclick="window.location.href='AkshatGupta.php'">Akshat Gupta</h4>
 
 									</div>
 								</div>
 							</li>
-							<li class="tim-album-item grid-item international band">
+							<li class="tim-album-item grid-item international SpecialActs">
 								<div class="tim-isotope-grid__img">
-									<img src="img/3.jpg" alt="album thumb" />
+									<img src="img/special_act/special_act (2).jpg" alt="album thumb" />
 								</div>
 
 
 
 								<div class="gallery_details_wrap">
 									<div class="gallery-info">
-										<h4 class="album-title" onclick="window.location.href='intro5.php'">Russian Band</h4>
+										<h4 class="album-title" onclick="window.location.href='AdbhutCollectiveArts.php'">Adbhut Collective Arts</h4>
 
 									</div>
 								</div>
 							</li>
 
-							<li class="tim-album-item grid-item  band">
+							<!-- <li class="tim-album-item grid-item  band">
 								<div class="tim-isotope-grid__img">
 									<img src="img/4.jpg" alt="album thumb" />
 								</div>
@@ -511,7 +512,7 @@
 
 									</div>
 								</div>
-							</li>
+							</li> -->
 
 
 

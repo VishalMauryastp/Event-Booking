@@ -8901,7 +8901,7 @@ ul.comment-list .comment-body .reply a:hover {
 
 .artist-about .content {
   padding-bottom: 15px;
-  border-bottom: 1px solid #ebebeb;
+  /* border-bottom: 1px solid #ebebeb; */
   margin-bottom: 20px;
 }
 

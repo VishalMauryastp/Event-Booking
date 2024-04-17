@@ -1,6 +1,7 @@
 <div class="my-32">
     <div class="mb-16 text-center">
-        <h2 class="md:text-4xl text-3xl font-extrabold">What Our Happy Clients Say</h2>
+        <h1 class="md:text-4xl text-3xl font-extrabold">Our Testimonials</h1>
+        <p class="mt-2">What Our Happy Clients Say</p>
     </div>
     <div class="grid md:grid-cols-3 md:py-16 gap-8 max-w-7xl max-md:max-w-lg mx-auto relative !h-auto">
         <div class="bg-blue-100 lg:max-w-[70%] max-w-[80%] h-full w-full inset-0 mx-auto rounded-3xl absolute max-md:hidden">
