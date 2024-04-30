@@ -11,17 +11,18 @@
 	<!-- <div class="loader loader-bar-ping-pong is-active"></div> -->
 	<div id="site">
 		<?php include 'components/header.php'; ?>
+		<?php include 'components/homeHero.php'; ?>
 
 
 		<!--============================-->
 		<!--=        	Banner         =-->
 		<!--============================-->
 		<!-- <section class="banner-five" data-bg-image="assets/img/bg5.jpg"> -->
-		<section class="banner-five bg-black/50 bg-blend-multiply " data-bg-image="assets/img/home/s2.jpg">
+		<!-- <section class="banner-five bg-black/50 bg-blend-multiply " data-bg-image="assets/img/home/s2.jpg">
 			<div class="tim-container">
 				<div id="para" class="paralax hidden">
 					<div id="paralax-1" class="scene">
-						<!-- <div data-depth="-0.50"><img src="assets/img/mouse-move.png" alt=""></div> -->
+						
 					</div>
 				</div>
 
@@ -40,15 +41,15 @@
 						<a class="tim-slide-btn backdrop-blur-[4px] hover:!border-solid hover:!text-white hover:!bg-[#ffc107]" href="#">Book Now</a>
 					</div>
 				</div>
-				<!-- /.tim-container -->
+				
 			</div>
-			<!-- /.tim-container -->
+			
 
 			<div class="smoke-wrqpper">
 				<canvas id="canvas"></canvas>
 			</div>
 
-		</section>
+		</section> -->
 		<!-- /#page-header -->
 
 
@@ -69,20 +70,31 @@
 						<p>Welcome to [Your Company Name], where we redefine event management through innovation, expertise, and dedication to excellence. As a leading event management company, we specialize in creating unforgettable experiences that leave a lasting impression on your guests.</p>
 					</div>
 				</div>
-				<div class="swiper-container row" data-swiper-config='{ "loop": true, "prevButton":".swiper-button-prev", "nextButton": ".swiper-button-next", "speed": 700, "autoplay": "5000", "slidesPerView": 6, "spaceBetween": 0, "grabCursor": true,"breakpoints": { "1300": { "slidesPerView": 4 }, "767": { "slidesPerView": 3 }, "500": { "slidesPerView": 1 }}}'>
+				<div class="swiper-container row " data-swiper-config='{ "loop": true, "prevButton":".swiper-button-prev", "nextButton": ".swiper-button-next", "speed": 700, "autoplay": "5000", "slidesPerView": 6, "spaceBetween": 10, "grabCursor": true,"breakpoints": { "1300": { "slidesPerView": 4 }, "767": { "slidesPerView": 3 }, "500": { "slidesPerView": 1 }}}'>
 					<ul class="artist-line-wrapper swiper-wrapper">
 						<?php
-						$images = array("a1", "a2", "a3", "a4", "a1", "a2", "a3", "a4");
+						$images = array(
+							array("image" => "a1", "category" => "Anchors", "link" => "anchros.php"),
+							array("image" => "a2", "category" => " Singers", "link" => "singers.php"),
+							array("image" => "a3", "category" => "Actors", "link" => "https://example.com/category3"),
+							array("image" => "a4", "category" => "Special Acts", "link" => "special-acts.php"),
+							array("image" => "a1", "category" => "Category 1", "link" => "/"),
+							array("image" => "a2", "category" => "Category 2", "link" => "/"),
+							array("image" => "a3", "category" => "Category 3", "link" => "/"),
+							array("image" => "a4", "category" => "Category 4", "link" => "/"),
+						);
 						foreach ($images as $value) { ?>
-							<li class="artist-single clearfix swiper-slide">
-								<img src="assets/img/<?php echo $value; ?>.jpg" alt="">
-								<div class="artist-single-content">
-									<ul>
+							<li class=" swiper-slide bg-white rounded" onclick="window.location.href='<?php echo $value['link']; ?>'">
+								<!-- artist-single clearfix -->
+								<img class="w-full" src="assets/img/<?php echo $value['image']; ?>.jpg" alt="">
+								<div class="my-2">
+									<!-- artist-single-content -->
+									<!-- <ul>
 										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									</ul>
-									<h6>James Hetfield</h6>
-									<p>Band: Metallica</p>
+									</ul> -->
+									<h1 class="text-xl text-center text-[#ffc107] "><?php echo $value['category']; ?></h1>
+									<button class="w-full mt-2"><a class="" href="<?php echo $value['link']; ?>">Book Now</a></button>
 								</div>
 							</li>
 						<?php } ?>
