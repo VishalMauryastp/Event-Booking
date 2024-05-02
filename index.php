@@ -76,7 +76,7 @@
 						$images = array(
 							array("image" => "a1", "category" => "Anchors", "link" => "anchros.php"),
 							array("image" => "a2", "category" => " Singers", "link" => "singers.php"),
-							array("image" => "a3", "category" => "Actors", "link" => "https://example.com/category3"),
+							array("image" => "a3", "category" => "Actors", "link" => "/"),
 							array("image" => "a4", "category" => "Special Acts", "link" => "special-acts.php"),
 							array("image" => "a1", "category" => "Category 1", "link" => "/"),
 							array("image" => "a2", "category" => "Category 2", "link" => "/"),

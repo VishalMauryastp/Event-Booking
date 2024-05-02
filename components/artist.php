@@ -131,8 +131,12 @@ $vipulData['special_act'] = [
                     <p class="text-lg mt-2 text-[#ddaa4a]"><?php echo $data['subtitle']; ?></p>
                     <p class="mt-4"><?php echo $data['description']; ?></p>
                 </div>
+                <!-- <button class="b " onclick="window.location.href='/anchros.php'">
+                    Load More
+                </button> -->
             </div>
         <?php endforeach; ?>
+        <a class=" backdrop-blur-[4px] hover:border-[#ffc107] !text-black  !border-2 border-black px-8 py-3  hover:!border-solid hover:!text-white hover:!bg-[#ffc107] mx-auto block w-fit max-md:mt-3 mt-8" href="/anchros.php">Load More</a>
     </div>
     <div class="py-16 max-md:px-2  bg-red-400/20 ">
 
@@ -149,6 +153,7 @@ $vipulData['special_act'] = [
                 </div>
             </div>
         <?php endforeach; ?>
+        <a class=" backdrop-blur-[4px] hover:border-[#ffc107] !text-black  !border-2 border-black px-8 py-3  hover:!border-solid hover:!text-white hover:!bg-[#ffc107] mx-auto block w-fit max-md:mt-3 mt-8" href="/singers.php">Load More</a>
     </div>
     <div class="py-16 max-md:px-2  bg-blue-400/20 ">
 
@@ -165,5 +170,6 @@ $vipulData['special_act'] = [
                 </div>
             </div>
         <?php endforeach; ?>
+        <a class=" backdrop-blur-[4px] hover:border-[#ffc107] !text-black  !border-2 border-black px-8 py-3  hover:!border-solid hover:!text-white hover:!bg-[#ffc107] mx-auto block w-fit max-md:mt-3 mt-8" href="/special-act.php">Load More</a>
     </div>
 </div>

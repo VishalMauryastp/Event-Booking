@@ -32,24 +32,12 @@
 					<div class="col-lg-9 col-md-8">
 						<article class="blog-post">
 
-							<div class="entry-image-wrapper ">
-
-								<!-- <figure class="post-thumbnail border">
-									<a href="blog-single.html"> -->
-								<!-- <img  src="img/blog.svg" alt="blog Thumb"> -->
-								<!-- </a>
-								</figure> -->
-								<!-- .post-thumbnail -->
-
-							</div>
-							<!-- .entry-image-wrapper -->
 
 
-							<div class="post-type-icon"><img src="img/blog.svg" alt="blog Thumb"></div>
-							<!-- <div class="post-type-icon"><i class="fa fa-picture-o"></i></div> -->
 
 
-							<div class="entry-content-wrapper">
+
+							<div class="entry-content-wrapper   !shadow max-md:mx-1 mx-4">
 
 								<div class="entry-meta entry-meta-footer">
 									<ul class="meta">
@@ -93,7 +81,51 @@
 
 
 							</div>
-							<!-- .entry-content-wrapper -->
+							<div class="entry-content-wrapper  border-2 border-gray-200 !shadow max-md:mx-1 mx-4 mt-8">
+
+								<div class="entry-meta entry-meta-footer">
+									<ul class="meta">
+										<li>
+											<span class="author">By
+												<span>
+													<a href="#">Admin</a>
+												</span>
+											</span>
+										</li>
+
+										<li>
+											<span class="category">In
+												<span>
+													<a href="#">
+														<span>Men & woman Club</span>
+													</a>
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+								<!-- .entry-meta -->
+
+								<header class="entry-header">
+									<h1 class="entry-title">
+										<a href="blog-single.html" rel="bookmark">Tony Don Make the Show Bning.</a>
+									</h1>
+								</header>
+								<!-- .entry-header -->
+
+								<div class="entry-content">
+									<p>
+										At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+										animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est.
+									</p>
+								</div>
+								<!-- /.entry-content -->
+
+								<a href="#" class="tim-btn tim-btn-bgt read-more-btn">Read More</a>
+
+
+							</div>
+
 						</article>
 
 
